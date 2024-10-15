@@ -61,3 +61,20 @@ section {
     color: #007acc;
 }
 
+/* Navbar hover effect */
+.navbar-nav .nav-link:hover {
+    color: #007acc !important;
+    transition: color 0.3s ease;
+}
+
+/* Project card hover effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Add smooth transitions to links */
+a {
+    transition: color 0.3s ease;
+}
+
