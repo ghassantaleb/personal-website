@@ -1,15 +1,19 @@
  /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Text color */
+    font-family: 'Poppins', sans-serif; /* Font family */
 }
 
-h1, h2 {
-    color: #444;
-    text-align: center;
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent navbar */
+}
+
+h1, h2, h3 {
+    color: #ffffff; /* Heading color */
 }
 
 section {
@@ -77,4 +81,7 @@ section {
 a {
     transition: color 0.3s ease;
 }
+
+
+
 

@@ -32,17 +32,92 @@
         }
 
         body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-            color: var(--light-color);
+            background-image: url('images/pexels-anniroenkae-2156881.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Text color */
+    font-family: 'Poppins', sans-serif; /* Font family */
         }
 
+        nav {
+    background-color: rgba(7, 28, 73, 0.486); /* Dark transparent navbar */
+    box-shadow: none;
+}
+
+section {
+    padding: 60px 0; /* Add some padding to each section */
+}
+
+#about {
+    background-color: #2E1A47; /* Dark violet */
+}
+
+#portfolio {
+    background-color: #1f3a557e; /* Dark blue */
+}
+
+#education {
+    background-color: #0324129a; /* Very dark green */
+}
+
+#certificates {
+    background-color: #2e1a4779; /* Dark violet */
+}
+
+#socials {
+    background-color: #1f3a5575; /* Dark blue */
+}
+
+/* Additional styles for your sections */
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff; /* White headings for visibility */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* White text for nav links */
+}
+
+.nav-link:hover {
+    color: #ffd900af; /* Gold color on hover */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white for cards */
+    border: none; /* Remove border */
+}
+
+.card-title {
+    color: #ffd900b9; /* Gold color for card titles */
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white for list items */
+    border: none; /* Remove border */
+}
+
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten on hover */
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #ffd900bb; /* Gold for buttons */
+    border: none; /* Remove border */
+            }
+
+.btn-primary:hover {
+    background-color: #ffc400d7; /* Lighter gold on hover */
+}
         /* Navbar */
         .navbar {
-            background-color: rgba(0, 0, 0, 0.6);
-            transition: all 0.3s ease;
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+                   }
+        h1, h2, h3 {
+    color: #ffffff; /* Heading color */
         }
-
         .navbar-brand {
             font-size: 1.5rem;
             font-weight: 600;
@@ -124,7 +199,7 @@
         /* Portfolio Section */
         #portfolio .card {
             background-color: var(--light-color);
-            color: #000;
+            color: #062758;
             border: none;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -136,7 +211,7 @@
 
         /* Education Section */
         #education .list-group-item {
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(57, 7, 99, 0.034);
             color: var(--light-color);
             border: none;
         }
@@ -148,7 +223,7 @@
         }
 
         #certificates ul li {
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(4, 61, 37, 0.1);
             margin-bottom: 10px;
             padding: 15px;
             border-radius: 10px;
@@ -185,28 +260,48 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">Ghassen Taleb</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="images/Web logo.webp" alt="Logo" style="width: 40px; height: auto;">
+        My Portfolio
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+            <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/ghassen-taleb-16791121b/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/ghassantaleb" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:ghassentaleb5@gmail.com">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 
     <!-- Hero Section -->
     <section id="hero">
         <div class="container text-center">
             <h1>Welcome to My Portfolio</h1>
             <p>Showcasing my projects, skills, and experience in business analytics and web development.</p>
+            <a href="#about" class="btn btn-primary">About Me</a>
             <a href="#portfolio" class="btn btn-primary">Explore My Work</a>
         </div>
     </section>
