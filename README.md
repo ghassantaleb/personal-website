@@ -2,4 +2,4 @@
 ## https://ghassantaleb.github.io/personal-website/
 Last deployed by @ghassantaleb 
 # or via Netlify at
-## ghassentaleb-portfolio.netlify.app
+## [ghassentaleb-portfolio.netlify.app](https://ghassentaleb-portfolio.netlify.app/)
